@@ -1,1 +1,1 @@
-web: gunicorn --bing 0.0.0.0:$PORT app:SimpleApplication
+web: python SimpleApplication.py runserver 0.0.0.0:5000
